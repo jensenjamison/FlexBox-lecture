@@ -1,0 +1,68 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box3 {
+    width: 50%;
+    height: 50%;
+    background-color: red;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    background-color: aqua;
+    height: 5vh;
+    align-items: center;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+li {
+    list-style-type: none;
+}
+
+.home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30vw;
+}
+
+ul > li {
+    margin-left: 50px;
+}
+
+.grid {
+    display: grid;
+    height: 400px;
+    width: 400px;
+    background: black;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(5, 20%);
+}
+
+.grid-box-1 {
+    background: green;
+    grid-column-start: 1 / span 2;
+}
